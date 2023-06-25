@@ -20,7 +20,7 @@ menuEmail.addEventListener('click', toggleDesktopMenu)
 menuHamIcon.addEventListener('click', toggleMobileMenu)
 menuCarIcon.addEventListener('click', toggleCarritoAside)
 productDetailCloseIcon.addEventListener('click', closeProductDetailAside)
-console.log(productDetailCloseIcon);
+
 function toggleDesktopMenu() {
    const  isShoppingCartContainClose = shoppingCartContain.classList.contains('inactive')
    //si el asisde carrito está abierto, hay que cerrarlo
